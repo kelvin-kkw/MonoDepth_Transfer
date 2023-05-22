@@ -1,12 +1,18 @@
-# MonoDepth_Transfer
-Monocular Depth Estimation from Image Using CNNs and Transfer Learning
+# MonoDepth_Transfer: Monocular Depth Estimation from Image Using CNNs and Transfer Learning
+When an image is captured, the 3-dimensional scene are projected onto a 2D plane which results in the loss of relative distance information for each point. 
+The image with those distance information for each pixel point is called depth maps. 
+This research is generating or pixel-wise prediction of depth information from 2D single RGB image by creating a CNN utilizing transfer learning.
+<br>
+
+<p align="center">
+  <img style="max-width:500px" src="depth_output_results/video_depth_result.mp4" width="" alt="RGBD Demo">
+</p>
+
+
+
 
 
 <br><br>
-
-
-
-
 
 # Example use of monocular depth estimation from single image in real world
 <br>
@@ -28,13 +34,16 @@ ARcore occlusion dense depth AR effect (Released in October, 2020)
 <br><br>
 
 
-
-Traditional way of depth estimation before
+# Traditional way of depth estimation before
+Use triangulation process to get spare depth information. The hardware set up and calculation of these 
+approaches are complex and the estimated depth information can be inaccurate due to the ambiguity or occlusion problem in different viewpoints of the cameras. 
 <p align="center">
-  <img style="max-width:500px" src="other_pictures/poster.png" width="" alt="RGBD Demo">
+  <img style="max-width:500px" src="other_pictures/stereo_camera.png" width="" alt="RGBD Demo">
 </p>
 
 
+
+# Depth Estimation using pre-trained CNN, DenseNet-169 as Encoder
 <p align="center">
   <img style="max-width:500px" src="other_pictures/poster.png" width="" alt="RGBD Demo">
 </p>
