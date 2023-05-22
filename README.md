@@ -7,7 +7,7 @@ Monocular Depth Estimation from Image Using CNNs and Transfer Learning
 
 
 <p align="center">
-  <img style="max-width:500px" src="https://github.com/kelvin-kkw/MonoDepth_Transfer/other_pictures/poster.png" width="" alt="RGBD Demo">
+  <img style="max-width:500px" src="other_pictures/poster.png" width="" alt="RGBD Demo">
 </p>
 
 
