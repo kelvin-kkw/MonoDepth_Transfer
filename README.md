@@ -8,7 +8,9 @@ The image with those distance information for each pixel point is called depth m
 </p>
 
 <br>
+
 **Depth Estimation from a Video**
+
 <br>
 <p align="center">
   <img style="max-width:500px" src="depth_output_results/video_depth_result.gif" width="" alt="RGBD Demo">
