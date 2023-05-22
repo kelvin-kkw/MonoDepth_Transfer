@@ -1,20 +1,21 @@
 # MonoDepth_Transfer: Monocular Depth Estimation from Image Using CNNs and Transfer Learning
 When an image is captured, the 3-dimensional scene are projected onto a 2D plane which results in the loss of relative distance information for each point. 
 The image with those distance information for each pixel point is called depth maps. This research is generating or pixel-wise prediction of depth information from 2D single RGB image by creating a CNN utilizing transfer learning.
-<br>
+<br><br>
 **Example Input RGB images and Output Depth maps**
 <p align="center">
   <img style="max-width:500px" src="depth_output_results/results_img.png" width="" alt="RGBD Demo">
 </p>
 
 <br>
-Depth Estimation from a Video
+**Depth Estimation from a Video**
+<br>
 <p align="center">
   <img style="max-width:500px" src="depth_output_results/video_depth_result.gif" width="" alt="RGBD Demo">
 </p>
 <br>
 
-The estimated depht values of each pixel are projected in 3D space as 3D points cloud
+**The estimated depht values of each pixel are projected in 3D space as 3D points cloud**
 <p align="center">
   <img style="max-width:500px" src="other_pictures/point_cloud1.png" width="" alt="RGBD Demo">
 </p>
@@ -93,6 +94,12 @@ The decoder contain upsmaling layer to enlarge the downsampled, shrinked in reso
 <p align="center">
   <img style="max-width:500px" src="other_pictures/model_layer.png" width="" alt="RGBD Demo">
 </p>
+<br><br>
+
+
+
+## Poster Image
+<p align="center">
+  <img style="max-width:500px" src="other_pictures/poster.png" width="" alt="RGBD Demo">
+</p>
 <br>
-
-
